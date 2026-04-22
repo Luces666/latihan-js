@@ -10,6 +10,6 @@ console.log("      HASIL     ")
 console.log("===============")
 
 console.log(
-    `K\t\t: ${luas.toFixed(2)}
-    J\t: ${keliling.toFixed(2)}`
+    `K\t\t: ${k.toFixed(2)}
+    J\t: ${j.toFixed(2)}`
 )
