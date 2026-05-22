@@ -1,12 +1,12 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 let a = 8.3;
-let c = 3.2;
+let c = "3.2";
 
-let tambah = a + c;
-let kurang = a - c;
-let kali = a * c;
-let bagi = a / c;
+let tambah = a + parseFloat(c);
+let kurang = a - parseFloat(c);
+let kali = a * parseFloat(c);
+let bagi = a / parseFloat(c);
 let persen = a % 3;
 
 console.log(
