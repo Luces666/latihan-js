@@ -6,8 +6,9 @@ let jumlah = Number(prompt('Masukkan Jumlah Buku: '));
 let tanggal = (prompt('Masukkan Tanggal Pembelian: '));
 
 console.log(
-    `Judul Buku: ${buku}
-    Nama Penerbit: ${penerbit}
-    Jumlah Buku: ${jumlah}
-    Tanggal Pembelian: ${tanggal}`
+    `
+    Judul Buku\t\t: ${buku}
+    Nama Penerbit\t: ${penerbit}
+    Jumlah Buku\t\t: ${jumlah}
+    Tanggal Pembelian\t: ${tanggal}`
 );

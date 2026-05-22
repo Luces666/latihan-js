@@ -1,0 +1,18 @@
+const prompt = require('prompt-sync')({sigint: true});
+
+let a = 8.3;
+let c = 3.2;
+
+let tambah = a + c;
+let kurang = a - c;
+let kali = a * c;
+let bagi = a / c;
+let persen = a % 3;
+
+console.log(
+    `    8.3 + 3.2 = ${tambah.toFixed(0)}
+    8.3 - 3.2 = ${kurang.toFixed(0)}
+    8.3 x 3.2 = ${kali.toFixed(0)}
+    8.3 / 3.2 = ${bagi.toFixed(0)}
+    8 % 3 = ${persen.toFixed(0)}`
+)

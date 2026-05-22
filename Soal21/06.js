@@ -6,11 +6,6 @@ let Kelulusan = true;
 console.log(
     `    Nama: ${namaSiswa}
     Ukuran Sepatu: ${ukuranSepatu}
-    Nilai Rapor: ${rataRapor}
+    Nilai Rapor: ${rataRapor.toFixed(2)}
     Kelulusan: ${Kelulusan}`
 )
-
-document.write(`Nama: ${namaSiswa} <br>
-    Ukuran Sepatu: ${ukuranSepatu} <br>
-    Nilai Rapor: ${rataRapor} <br>
-    Kelulusan: ${Kelulusan}`)
