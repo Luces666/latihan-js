@@ -12,7 +12,7 @@ if (nilai >= 100){
     console.log("Grade C");
 } else if (nilai >= 60){
     console.log("Grade D");
-} else if (nilai < 60){
+} else if (nilai >= 50){
     console.log("Grade E");
 } else {
     console.log("Ujian Kembali ya!!");
