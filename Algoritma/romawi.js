@@ -1,38 +1,40 @@
 const prompt = require('prompt-sync')({sigint: true});
 
 let angka = Number(prompt("Masukkan Angka (1-10): "));
-
+let hasil = "";
 switch(angka){
     case 1:
-        console.log("I");
+        hasil = ("I");
         break;
     case 2:
-        console.log("II");
+        hasil = ("II");
         break;
     case 3:
-        console.log("III");
+        hasil = ("III");
         break;
     case 4:
-        console.log("IV");
+        hasil = ("IV");
         break;
     case 5:
-        console.log("V");
+        hasil = ("V");
         break
     case 6:
-        console.log("VI");
+        hasil = ("VI");
         break;
     case 7:
-        console.log("VII");
+        hasil = ("VII");
         break;
     case 8:
-        console.log("VIII");
+        hasil = ("VIII");
         break;
     case 9:
-        console.log("IX");
+        hasil = ("IX");
         break;
     case 10:
-        console.log("X");
+        hasil = ("X");
         break;
     default:
         console.log("Angka harus antara 1-10");
 }
+
+console.log(`Angka Romawi: ${hasil}`)
